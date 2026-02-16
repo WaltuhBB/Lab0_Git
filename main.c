@@ -5,11 +5,24 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//#define szz 3
+//#define szz 11
 #define szz 10
 
 int main()
 {
+    //int array[szz] = {1, 1, 1};
+    //countEl = 1
+
+    //int array[szz] = {1, 2, 3};
+    //countEl = 3
+
+    //int array[szz] = {5,5,5,7,3,3,2,2,1,1,10};
+    //countEl = 6
+
     int array[szz] = {5,5,7,3,3,2,2,1,1,10};
+    //countEl = 6
+
     int max = array[0];
     for(int i=1;i < szz;i++)
         if(array[i] > max) max = array[i];
